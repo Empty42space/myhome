@@ -8,7 +8,6 @@
         :root {
             --card-bg: rgba(20, 20, 25, 0.4);
             --text-color: #f0e2e5;
-            /* Приглушенные цвета под серые и темные тона обоев */
             --border-normal: rgba(100, 100, 110, 0.25);
             --border-hover: rgba(140, 140, 150, 0.5);
         }
@@ -62,7 +61,7 @@
             z-index: 1;
         }
 
-        /* КАРТОЧКА-КОНТЕЙНЕР С АТМОСФЕРНОЙ ТЁМНОЙ ТЕНЬЮ */
+        /* КАРТОЧКА-КОНТЕЙНЕР */
         .card {
             background-color: var(--card-bg);
             border: 1px solid var(--border-normal);
@@ -75,7 +74,6 @@
             justify-content: center;
             text-decoration: none;
             overflow: hidden;
-            /* Мягкая темная тень без цветного неона */
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), inset 0 1px 1px rgba(255, 255, 255, 0.05);
             transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
             backdrop-filter: blur(4px);
@@ -139,35 +137,35 @@
 <body>
 
     <!-- ОБОИ -->
-    <img src="@.jpg" class="welcome-img" alt="Background">
+    <img src="https://ibb.co" class="welcome-img" alt="Background">
     <div class="bg-overlay"></div>
 
     <!-- Плитки быстрого доступа -->
     <div class="grid-container">
         
         <a href="https://youtube.com" class="card">
-            <img src="icone app youtube lain.jpg" class="card-img" alt="YouTube">
+            <img src="https://ibb.co" class="card-img" alt="YouTube">
             <div class="card-overlay">
                 <div class="card-title">YouTube</div>
             </div>
         </a>
 
         <a href="https://pinterest.com" class="card">
-            <img src="Lain (〃ω〃).jpg" class="card-img" alt="Pinterest">
+            <img src="https://ibb.co" class="card-img" alt="Pinterest">
             <div class="card-overlay">
                 <div class="card-title">Pinterest</div>
             </div>
         </a>
 
         <a href="https://edu22.info" class="card">
-            <img src="Lain C.jpg" class="card-img" alt="Edu22">
+            <img src="https://ibb.co" class="card-img" alt="Edu22">
             <div class="card-overlay">
                 <div class="card-title">Edu22</div>
             </div>
         </a>
 
         <a href="https://github.com" class="card">
-            <img src="lain.jpg" class="card-img" alt="GitHub">
+            <img src="https://ibb.co" class="card-img" alt="GitHub">
             <div class="card-overlay">
                 <div class="card-title">GitHub</div>
             </div>
